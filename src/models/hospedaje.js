@@ -32,6 +32,10 @@ const hospedajeSchema = new Schema({
     type: Boolean,
     required: true,
   },
+  wifi: {
+    type: Boolean,
+    required: true,
+  },
   ubicacion: {
     type: String,
     minLength: 5,
