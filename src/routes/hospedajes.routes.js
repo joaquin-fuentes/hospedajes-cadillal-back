@@ -23,6 +23,7 @@ router
     ],
     crearHospedaje
   );
+  
 router
   .route("/hospedajes/:id")
   .get(obtenerHospedaje)
